@@ -1,0 +1,154 @@
+/* CSS RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+/* Body */
+
+body {
+    background-color: #F1F5F8;
+    font-family: "Poppins", sans-serif;
+}
+
+.main-content {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+/* Box */
+
+.box-content {
+    width: 70%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px rgb(195, 191, 191);
+}
+
+/* Inactive profiles*/
+
+.content-inactive {
+    display: none;
+}
+
+/* Headings */
+
+h1 {
+    margin-bottom: 50px;
+    font-size: 60px;
+    letter-spacing: 10px;
+    
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+}
+h1:before{
+    content: "";
+    position: absolute;
+    width: 30%;
+    height: 1px;
+    bottom: 0;
+    left: 35%;
+    border-bottom: 4px solid #49A6EA;
+}
+
+h3 {
+    margin-bottom: 10px;
+}
+
+.first-h3 {
+    letter-spacing: 5px;
+}
+
+.second-h3 {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #49A6EA;
+}
+
+/* Images*/
+
+img {
+    width: 15%;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-bottom: 50px;
+}
+
+/* Text */
+
+p {
+    margin-top: 30px;
+    font-size: 17px;
+}
+
+/* Buttons */
+
+button {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.slide-btn {
+    background-color: white;
+    border: 0px solid white;
+    font-size: 40px;
+    color: #49A6EA;
+}
+
+.slide-btn:hover {
+    color: black;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.slide-left {
+    margin-right: 20px;
+}
+
+.slide-right {
+    margin-left: 20px;
+}
+
+.random-btn {
+    color: #49A6EA;
+    background-color: #49a7ea29;
+    width: 170px;
+    height: 50px;
+    border: 3px solid #49A6EA;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.random-btn:hover {
+    background-color: white;
+    color: black;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+/* Active profile */
+
+.content-active {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
